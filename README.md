@@ -38,7 +38,7 @@ Instalação e execução
    git clone https://github.com/acduranti/projeto-app-climanow.git
 2. Abra o projeto no Android Studio.
 3. Adicione as chaves de API (não versionar):
-   - Exemplo em `local.properties` (recomendado):
+   - Exemplo em `local.properties` :
      HG_BRASIL_API_KEY=SUACHAVE_HGBRASIL
      MAPS_API_KEY=SUACHAVE_GOOGLE_MAPS
    - Ou crie `app/src/main/res/values/strings.xml` com:
