@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores para o tema escuro -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_primary">#333333</color>
+
+    <!-- Cores para texto -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#A9A9A9</color>
+    <color name="black">#FF000000</color>
+</resources>
+

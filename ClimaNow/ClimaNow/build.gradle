@@ -1,0 +1,9 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    // Define the Android Gradle Plugin version.
+    id 'com.android.application' version '8.2.2' apply false
+
+    // Define the Secrets Gradle Plugin for Maps API Key.
+    // Esta linha corrige o erro ao informar ao Gradle onde encontrar o plugin e qual versão usar.
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin' version '2.0.1' apply false
+}
