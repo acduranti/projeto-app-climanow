@@ -34,24 +34,12 @@ Pré-requisitos
 - (Em dispositivo) Google Play Services para Maps
 
 Instalação e execução
-1. Clone o repositório:
-   git clone https://github.com/acduranti/projeto-app-climanow.git
+1. Clone o repositório.
 2. Abra o projeto no Android Studio.
 3. Adicione as chaves de API (não versionar):
    - Exemplo em `local.properties` :
      HG_BRASIL_API_KEY=SUACHAVE_HGBRASIL
      MAPS_API_KEY=SUACHAVE_GOOGLE_MAPS
-   - Ou crie `app/src/main/res/values/strings.xml` com:
-     ```xml
-     <string name="hg_br_api_key">SUA_CHAVE_HGBRASIL</string>
-     <string name="google_maps_key">SUA_CHAVE_GOOGLE_MAPS</string>
-     ```
-   - Se usar `strings.xml`, adicione no AndroidManifest a meta-data do Maps:
-     ```xml
-     <meta-data
-         android:name="com.google.android.geo.API_KEY"
-         android:value="@string/google_maps_key" />
-     ```
 4. Verifique e adicione dependências no Gradle. Exemplo (app/build.gradle):
    - implementation 'com.google.code.gson:gson:2.8.9'
    - implementation 'com.squareup.retrofit2:retrofit:2.9.0'
